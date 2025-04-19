@@ -1,0 +1,13 @@
+{
+  "show": true,
+  "theme": "light",
+  "title": "Estoque Baixo",
+  "icon": "bi-exclamation-triangle",
+  "backgroundImage": "/images/warning-bg.jpg",
+  "highlight": {
+    "color": "#dc3545",
+    "text": "Atenção"
+  },
+  "flip": true,
+  "flipContent": "Restam apenas 3 unidades!"
+}

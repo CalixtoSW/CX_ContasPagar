@@ -1,0 +1,19 @@
+{
+  "homepage": {
+    "theme": "dark",
+    "fontSize": "16px",
+    "backgroundColor": "#1e1e2f",
+    "showHeader": true,
+    "showSidebar": true,
+    "showFooter": true
+  },
+  "header": {
+    "configPath": "/configs/headerConfig.json"
+  },
+  "sidebar": {
+    "configPath": "/configs/sidebarConfig.json"
+  },
+  "footer": {
+    "configPath": "/configs/footerConfig.json"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collapsed": false,
+  "menu": [
+    { "label": "Dashboard", "icon": "bi-speedometer2", "href": "/" },
+    {
+      "label": "Relatórios",
+      "icon": "bi-file-earmark-text",
+      "dropdown": true,
+      "items": [
+        { "label": "Mensal", "href": "/relatorios/mensal" },
+        { "label": "Anual", "href": "/relatorios/anual" }
+      ]
+    },
+    { "label": "Configurações", "icon": "bi-gear", "href": "/config" }
+  ]
+}

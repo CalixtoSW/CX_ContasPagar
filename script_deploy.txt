@@ -1,0 +1,14 @@
+.venv\Scripts\activate
+
+django-admin startproject gestao_financeira .
+cd gestao_financeira
+
+
+python manage.py startapp nucleo
+python manage.py startapp contas
+python manage.py startapp financeiro
+
+pip install djangorestframework django-cors-headers django-environ
+
+python manage.py migrate
+python manage.py runserver

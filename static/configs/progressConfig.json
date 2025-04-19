@@ -1,0 +1,15 @@
+{
+  "value": 0,
+  "min": 0,
+  "max": 100,
+  "unit": "%",
+  "label": "Poder de Carga",
+  "striped": true,
+  "animated": true,
+  "showPercentText": true,
+  "colorGradient": true,
+  "autoProgress": true,
+  "speed": 50,
+  "loop": true,
+  "onCompleteMessage": "Carga finalizada! ☄️"
+}

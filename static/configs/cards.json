@@ -1,0 +1,35 @@
+[
+  {
+    "show": true,
+    "title": "Estoque Baixo",
+    "icon": "bi-exclamation-triangle",
+    "backgroundImage": "/images/warning-bg.jpg",
+    "highlight": { "color": "#dc3545", "text": "Atenção" },
+    "priority": "alta",
+    "flip": true,
+    "flipContent": "Restam apenas 3 unidades.",
+    "onClickMessage": "Ver detalhes do estoque"
+  },
+  {
+    "show": true,
+    "title": "Meta Batida",
+    "icon": "bi-graph-up",
+    "backgroundImage": "/images/success-bg.jpg",
+    "highlight": { "color": "#198754", "text": "Sucesso" },
+    "priority": "normal",
+    "flip": true,
+    "flipContent": "Meta de vendas superada!",
+    "onClickMessage": "Abrir relatório de desempenho"
+  },
+  {
+    "show": true,
+    "title": "Novo Cliente",
+    "icon": "bi-person-check",
+    "backgroundImage": "/images/client-bg.jpg",
+    "highlight": { "color": "#0d6efd", "text": "Novo!" },
+    "priority": "baixa",
+    "flip": true,
+    "flipContent": "João da Silva se cadastrou",
+    "onClickMessage": "Ver perfil do cliente"
+  }
+]

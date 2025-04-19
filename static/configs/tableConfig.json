@@ -1,0 +1,21 @@
+{
+  "show": true,
+  "striped": true,
+  "selectable": true,
+  "pagination": true,
+  "pageSize": 5,
+  "columns": [
+    { "label": "Produto", "field": "produto", "sortable": true, "filterable": true, "editable": false },
+    { "label": "Categoria", "field": "categoria", "filterable": true },
+    { "label": "Valor", "field": "valor", "sortable": true, "totalize": true, "format": "currency" },
+    { "label": "Ações", "field": "acoes", "type": "actions" }
+  ],
+  "data": [
+    { "produto": "Notebook", "categoria": "Eletrônicos", "valor": 4200 },
+    { "produto": "Cadeira Gamer", "categoria": "Móveis", "valor": 1300 },
+    { "produto": "Monitor", "categoria": "Eletrônicos", "valor": 1500 },
+    { "produto": "Mesa Escritório", "categoria": "Móveis", "valor": 980 },
+    { "produto": "Impressora", "categoria": "Periféricos", "valor": 700 },
+    { "produto": "Fone Bluetooth", "categoria": "Acessórios", "valor": 280 }
+  ]
+}

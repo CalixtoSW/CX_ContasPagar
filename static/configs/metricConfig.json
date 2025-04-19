@@ -1,0 +1,11 @@
+{
+  "label": "Vendas Mensais",
+  "value": 12500,
+  "unit": "R$",
+  "icon": "bi-cash-stack",
+  "theme": "light",
+  "variation": {
+    "type": "negative",
+    "value": "-5%"
+  }
+}
